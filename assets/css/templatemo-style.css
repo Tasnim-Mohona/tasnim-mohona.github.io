@@ -808,4 +808,27 @@ section.contact-me {
     .isotope-toolbar {
         margin-bottom: 20px;
     }
+
+    /* Educational Qualification*/
+
+    .education-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .education-column {
+        width: 48%; /* Adjust as needed for spacing */
+    }
+    
+    .read-more {
+        text-align: center;
+        margin-top: 20px; /* Space above the read more link */
+    }
+    
+    .read-more a {
+        text-decoration: none;
+        color: #007bff; /* Bootstrap primary color or your choice */
+        font-weight: bold;
+    }
+    
 }
