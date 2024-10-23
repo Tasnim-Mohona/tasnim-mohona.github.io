@@ -1,0 +1,19 @@
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* For centering */
+    background-color: red; /* Set background color */
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between links */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white; /* Change to your desired color */
+    padding: 10px 15px; /* Adjust padding as needed */
+}
