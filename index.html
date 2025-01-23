@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"/>
@@ -290,6 +289,7 @@ https://templatemo.com/tm-531-reflux
                                              name="isotope-filter" />
                                       <span>all</span>
                                   </label>
+
                                   <label>
                                       <input type="radio"
                                              data-type="people"
@@ -317,6 +317,8 @@ https://templatemo.com/tm-531-reflux
                                              name="isotope-filter" />
                                       <span>Machine Learning</span>
                                   </label>
+                                </form>
+                             
                               
                               <div class="isotope-box">
                                   <div class="isotope-item" data-type="nature">
@@ -433,6 +435,7 @@ https://templatemo.com/tm-531-reflux
                                         </figcaption>
                                     </figure>
                                 </div>
+                                
 
                                 <div class="isotope-item" data-type="animate">
                                     <figure class="snip1321">
@@ -454,117 +457,116 @@ https://templatemo.com/tm-531-reflux
                       </div>
                   </div>
               </section>
-                
-              
-    <!-- Contact Me Section -->
-    <section class="section contact-me" data-section="section5">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Contact Me</h2>
-            <div class="line-dec"></div>
-            <span>
-              If you have a Research Position Available at your Lab that involves Machine Learning or Network Engineering or even better both,
-              please do check out my skills and research experience and reach out to me via qmohona@gmail.com
-            </span>
-          </div>
-          <div class="row">
-            <div class="right-content">
-              <div class="container">
-                <form id="contact" action="" method="post">
+         
+          <!-- Contact Me Section -->
+              <section class="section contact-me" data-section="section5">
+                <div class="container">
+                  <div class="section-heading">
+                    <h2>Contact Me</h2>
+                    <div class="line-dec"></div>
+                    <span>
+                      If you have a Research Position Available at your Lab that involves Machine Learning or Network Engineering or even better both,
+                      please do check out my skills and research experience and reach out to me via qmohona@gmail.com
+                    </span>
+                  </div>
                   <div class="row">
-                    <div class="col-md-6">
-                      <fieldset>
-                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="" />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-6">
-                      <fieldset>
-                        <input name="email" type="text" class="form-control" id="email" placeholder="Your email..." required="" />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="" />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="button">
-                          Send Message
-                        </button>
-                      </fieldset>
+                    <div class="right-content">
+                      <div class="container">
+                        <form id="contact" action="" method="post">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <fieldset>
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="" />
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                              <fieldset>
+                                <input name="email" type="text" class="form-control" id="email" placeholder="Your email..." required="" />
+                              </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                              <fieldset>
+                                <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="" />
+                              </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="button">
+                                  Send Message
+                                </button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
                     </div>
                   </div>
-                </form>
-              </div>
+                </div>
+              </section>
             </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
-  
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
-  
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
-  
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
-  
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      });
-  
-      $(window).scroll(function() {
-        checkSection();
-      });
-    </script>
-  </body>
-  </html>
-  
+          
+            <!-- Scripts -->
+            <!-- Bootstrap core JavaScript -->
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+          
+            <script src="assets/js/isotope.min.js"></script>
+            <script src="assets/js/owl-carousel.js"></script>
+            <script src="assets/js/lightbox.js"></script>
+            <script src="assets/js/custom.js"></script>
+            <script>
+              //according to loftblog tut
+              $(".main-menu li:first").addClass("active");
+          
+              var showSection = function showSection(section, isAnimate) {
+                var direction = section.replace(/#/, ""),
+                  reqSection = $(".section").filter('[data-section="' + direction + '"]'),
+                  reqSectionPos = reqSection.offset().top - 0;
+          
+                if (isAnimate) {
+                  $("body, html").animate(
+                    {
+                      scrollTop: reqSectionPos
+                    },
+                    800
+                  );
+                } else {
+                  $("body, html").scrollTop(reqSectionPos);
+                }
+              };
+          
+              var checkSection = function checkSection() {
+                $(".section").each(function() {
+                  var $this = $(this),
+                    topEdge = $this.offset().top - 80,
+                    bottomEdge = topEdge + $this.height(),
+                    wScroll = $(window).scrollTop();
+                  if (topEdge < wScroll && bottomEdge > wScroll) {
+                    var currentId = $this.data("section"),
+                      reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+                    reqLink
+                      .closest("li")
+                      .addClass("active")
+                      .siblings()
+                      .removeClass("active");
+                  }
+                });
+              };
+          
+              $(".main-menu").on("click", "a", function(e) {
+                e.preventDefault();
+                showSection($(this).attr("href"), true);
+              });
+          
+              $(window).scroll(function() {
+                checkSection();
+              });
+            </script>
+          </body>
+          </html>
+          
