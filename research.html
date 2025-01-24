@@ -18,14 +18,74 @@
   <link rel="stylesheet" href="assets/css/owl.css" />
   <link rel="stylesheet" href="assets/css/lightbox.css" />
   
+     <!-- <! -- MOHONA's CSS FILES -->
+    <!-- <link rel="assets\css\publications.css" rel="stylesheet"/> -->
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
+
+    
   <!-- Custom CSS for Sidebar and Dark Sections -->
-  <style>
+<style>
+  .white-button a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #a43f49;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.white-button a:hover {
+    background-color: #a43f49;
+    color: #fff;
+}
+
+.button {
+            background-color: #4CAF50; /* Change this to your website's color */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .custom-list {
+            list-style-type: none;
+            padding-left: 0;
+            text-align: justify;
+        }
+        .custom-list-item {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+        .custom-list-item::before {
+            content: "■";
+            color: white; /* Change this to your desired bullet color */
+            position: absolute;
+            left: 0;
+            font-size: 12px; /* Adjust the size as needed */
+        }
+            /*Change this to your desired bullet color
+            
+      
+</style>
+  <!-- <style>
     /* Sidebar Background Color */
-    .menu {
-      background-color: #070607; /* Dark Blue */                          
+
+     .menu {
+      /* background-color: #070607; Dark Blue        */
+      background-color: #3498db;                   
       color: #010b0e; /* Light Text for Contrast */
       
-    }
+    } 
 
     /* Sidebar Links */
     .menu .main-menu a {
@@ -68,8 +128,34 @@
 
     .dark-section .white-button a:hover {
       background-color: #2980b9;
-    }
-  </style>
+    } -->
+    <!-- <style>
+    .button {
+      background-color: #af4c93; /* Change this to your website's color */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+  }
+  .custom-list {
+      list-style-type: square;
+      list-style-position: inside;
+      padding-left: 0;
+      text-align: justify;
+  }
+  .custom-list-item {
+      margin-bottom: 10px;
+  }
+  .custom-list-item::marker {
+      color: white; 
+  }
+  </style> -->
 </head>
 
 <body>
@@ -92,17 +178,17 @@
               <li><a href="#section1">Research & Publication Summary</a></li>
               <li><a href="#section2">Conference Presentation</a></li>
               <li><a href="#section3">Papers Under Review </a></li>
-              <li><a href="#section4">Current Interest</a></li>
+              <li><a href="#section4">Research Projects</a></li>
               <li><a href="#section5">Contact Me</a></li>
             </ul>
           </nav>
           <div class="social-network">
             <ul class="soial-icons">
-              <li><a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a href="https://github.com/Tasnim-Mohona"><i class="fab fa-github"></i></a></a></li>
+              <li><a href="https://www.linkedin.com/in/qmohona/"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://www.researchgate.net/profile/Quazi-Mohona"><i class="fa fa-bars"></i></a></li>
               <li><a href="#"><i class="fa fa-rss"></i></a></li>
+              <li><a href="#"><i class="fa-search"></i></a></li>
             </ul>
           </div>
           <div class="copyright-text">
@@ -117,11 +203,49 @@
       <section class="section about-me " data-section="section1">
       <div class="container">
         <div class="section-heading">
-          <h2>Research and Publication Summary</h2>
+          <h1>Research and Publication Summary</h1>
+          <p>Explore my research and publications:</p>
           <div class="line-dec"></div>
           <span>
             I am currently an Information Security Auditor and researcher. My current research interests involve Machine Learning, Network Security, and AI in Telecommunication Engineering.
           </span>
+<!-- adding buttons on 24th January -->
+<p>Explore my research and publications...</p>
+<h2>Additional Information</h2>
+
+<ul class="custom-list">
+    <li class="custom-list-item">A Survey on Tackling Heterogeneity in Federated Learning: A collaborative work with Kristiania University of Applied Sciences.</li>
+    <li class="custom-list-item">A Comparative Analysis of Diverse Machine Learning Techniques in Intrusion Detection Datasets (Project Link)
+        <ul class="custom-list">
+            <li class="custom-list-item">Built an interactive user interface demonstrating data preprocessing, standardization, and splicing.</li>
+            <li class="custom-list-item">Implemented feature selection techniques using regularizers to reduce multicollinearity.</li>
+            <li class="custom-list-item">Integrated options for classifier selection, ROC-AUC curve analysis, cross-validation, and performance visualization.</li>
+        </ul>
+    </li>
+    <li class="custom-list-item">Identification of Cucumber Leaf Disease: Deep learning-based classification (In progress).</li>
+    <li class="custom-list-item">Advanced Persistent Threat Detection: Applied unsupervised learning to the CICAPT IoT dataset, addressing imbalanced data challenges [Work under Progress]</li>
+    <li class="custom-list-item">A novel approach for PCOS Prediction: Symptom-based PCOS prediction using feature selection and Optimized Machine Learning Algorithms Compared evaluation metrics between symptom integrated dataset and only medical assessed dataset.</li>
+    <li class="custom-list-item">Modeling a 5R Robotic Manipulating System with 5DoF using GUI MATLAB Simulation, 4th ICMIME, Rajshahi</li>
+    <li class="custom-list-item">Log Analysis and Dashboard Building: Developed statistical models with Python and visualizations using Grafana.</li>
+    <li class="custom-list-item">Advanced Persistent Threat Detection: Applied unsupervised learning to the CICAPT IoT dataset, addressing imbalanced data challenges [Work under Progress]</li>
+    <li class="custom-list-item">Undergraduate Thesis: Analysis of the Effect of System and Channel Parameter Variation on Out-of-Band Aided Reconstruction Methods in mmWave and Sub-6 GHz bands.</li>
+</ul>
+
+
+<!-- <a href="http://icmime-ruet.ac.bd/2019/DIR/Contents/Technical%20Papers/Applied%20Mechanics/AM-16.pdf" class="btn btn-primary mb-2" target="_blank">Conference Paper</a>
+  -->
+<div class="white-button">
+<a href="http://icmime-ruet.ac.bd/2019/DIR/Contents/Technical%20Papers/Applied%20Mechanics/AM-16.pdf" class="btn btn-primary mb-2" target="_blank">Conference Paper</a>
+<a href="http://icmime-ruet.ac.bd/2019/DIR/Contents/Technical%20Papers/Applied%20Mechanics/AM-16.pdf" class="btn btn-primary mb-2" target="_blank">Conference Paper</a>
+<a href="http://icmime-ruet.ac.bd/2019/DIR/Contents/Technical%20Papers/Applied%20Mechanics/AM-16.pdf" class="btn btn-primary mb-2" target="_blank">Conference Paper</a>
+<a href="http://icmime-ruet.ac.bd/2019/DIR/Contents/Technical%20Papers/Applied%20Mechanics/AM-16.pdf" class="btn btn-primary mb-2" target="_blank">Conference Paper</a>
+<a href="http://icmime-ruet.ac.bd/2019/DIR/Contents/Technical%20Papers/Applied%20Mechanics/AM-16.pdf" class="btn btn-primary mb-2" target="_blank">Conference Paper</a>
+<a href="http://icmime-ruet.ac.bd/2019/DIR/Contents/Technical%20Papers/Applied%20Mechanics/AM-16.pdf" class="btn btn-primary mb-2" target="_blank">Conference Paper</a>
+<a href="http://icmime-ruet.ac.bd/2019/DIR/Contents/Technical%20Papers/Applied%20Mechanics/AM-16.pdf" class="btn btn-primary mb-2" target="_blank">Conference Paper</a>
+<!-- <a href="https://example.com/paper1" class="button">Paper 1</a>
+<a href="https://example.com/paper2" class="button">Paper 2</a>
+<a href="https://example.com/paper3" class="button">Paper 3</a>           -->
+</div>
         </div>
         <!-- Existing About Me content -->
       </div>
@@ -137,14 +261,15 @@
             This paper focuses on a planner Robotic Arm System Having 5 Revolute Joints and 5 Degrees of Freedom.
           </span>
         </div>
+        <div class="white-button">
         <div class="row justify-content-center">
           <div class="col-md-6 text-center">
             <!-- Button to navigate to a link -->
             <a href="http://icmime-ruet.ac.bd/2019/DIR/Contents/Technical%20Papers/Applied%20Mechanics/AM-16.pdf" class="btn btn-primary mb-2" target="_blank">Conference Paper</a>
             
             <!-- Button to download the CSV file -->
-            <a href="https://docs.google.com/presentation/d/0B5cZHkZEpsyGWExicEhaRDNiMDlmVGc1UklOanJZMWx5azU0/edit?usp=sharing&ouid=115573826442611875097&resourcekey=0-PjczOG5jsygYjsDjVoCbog&rtpof=true&sd=true" class="btn btn-primary mb-2" download>Check Presentation</a>
-            
+            <a href="assets\files\icmime presentation.pptx" class="btn btn-primary mb-2" download>Check Presentation</a>
+            </div>
           </div>
         </div>
       </div>
@@ -161,6 +286,9 @@
             A Cross Validation Option is currently being Developed.
           </span>
         </div>
+
+
+        <div class="white-button">
         <div class="row justify-content-center">
           <div class="col-md-6 text-center">
             <!-- Button to navigate to a link -->
@@ -169,9 +297,121 @@
             <!-- Button to download the CSV file -->
             <a href="assets/files/EQ.csv" class="btn btn-primary mb-2" download>Download CSV</a>
           </div>
+          </div>
         </div>
       </div>
+
+      <div class="container">
+        <div class="section-heading">
+          <h2>Identification of Cucumber Leaf Disease: Deep learning-based classification</h2>
+          <div class="line-dec"></div>
+          <span>
+The major contribution of this paper is the dataset that were created to detect four different diseases of the cucumber- 
+the cash crop of Bangladesh. The models that were trained and evaluated via this novel dataset are CNN, InceptionV3, and EfficientNetB4.The dataset contains four classes of images namely: Angular leaf Spot, Downy Mildew, Powdery 
+Mildew, and good leaf. 
+          </span>
+        </div>
+
+
+        <div class="white-button">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <!-- Button to navigate to a link -->
+            <a href="assets\files\Identification of Cucumber Leaf Disease via Deep Learning Based Classification.pdf" class="btn btn-primary mb-2" target="_blank">Research Paper</a>
+            
+            <!-- Button to download the CSV file -->
+            <a href="assets/files/EQ.csv" class="btn btn-primary mb-2" download>Download CSV</a>
+          </div>
+          </div>
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="section-heading">
+          <h2>A novel approach for PCOS Prediction: Symptom-based PCOS prediction using feature selection and Optimized Machine Learning Algorithms</h2>
+          <div class="line-dec"></div>
+          <span>
+            Compared Assessment of evaluation metrics between symptom integrated dataset and only medical assessed dataset.
+          </span>
+        </div>
+        <div class="white-button">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <!-- Button to navigate to a link -->
+            <a href="assets\files\Identification of Cucumber Leaf Disease via Deep Learning Based Classification.pdf" class="btn btn-primary mb-2" target="_blank">Research Paper</a>
+            
+            <!-- Button to download the CSV file -->
+            <a href="assets/files/EQ.csv" class="btn btn-primary mb-2" download>Download CSV</a>
+          </div>
+          </div>
+      </div>
+      </div>
     </section>
+
+
+
+    <!-- Professional Skills Section -->
+    <section class="section my-services" data-section="section4">
+      <div class="container">
+          <div class="section-heading">
+              <h2>Research Projects</h2>
+              <div class="line-dec"></div>
+              <span>
+                  <a href="network_engineering_page.html">Network Engineering</a> | <a href="machine_learning_page.html">Machine Learning Engineering [Python]</a> | <a href="software_developer_page.html">Software Developer</a> | <a href="web_developer_page.html">Web Developer [C# MVC]</a> | <a href="qa_automation_page.html">Quality Assurance Automation Engineering [Java Selenium Aquality Framework BrowserSTack]</a> | <a href="devops_page.html">DevOps [ Jenkins Docker CI/CD Git]</a>
+              </span>
+          </div>
+
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="service-item">
+                      <div class="first-service-icon service-icon"></div>
+                      <h4><a href="html_css_page.html">HTML5 &amp; CSS3</a></h4>
+                      <p>
+                          Frontend and Backend portion of Website Development using PHP and XAMPP.
+                      </p>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="service-item">
+                      <div class="second-service-icon service-icon"></div>
+                      <h4><a href="machine_learning_page.html">Machine Learning</a></h4>
+                      <p>
+                          Panda, NumPy, Dask, TensorFlow, Tkinter [Small Game Development], PyPlot, Seaborn
+                      </p>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="service-item">
+                      <div class="third-service-icon service-icon"></div>
+                      <h4><a href="devops_page.html">DevOps</a></h4>
+                      <p>
+                          Docker, Jenkins
+                      </p>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="service-item">
+                      <div class="fourth-service-icon service-icon"></div>
+                      <h4><a href="cyber_security_page.html">Cyber Security</a></h4>
+                      <p>
+                          Linux Kernel, Seed Lab, Kali Linux
+                      </p>
+                  </div>
+              </div>
+              <!-- <div class="col-md-6">
+                <div class="service-item">
+                    <div class="third-service-icon service-icon"></div>
+                    <h4><a href="devops_page.html">DevOps</a></h4>
+                    <p>
+                        Docker, Jenkins
+                    </p>
+                </div>
+            </div> -->
+
+
+          </div>
+      </div>
+  </section>
     
 
     <!-- Contact Me Section -->
